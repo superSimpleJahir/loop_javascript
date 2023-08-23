@@ -66,6 +66,7 @@ for (const [key, value] of myObject) {
   console.log(key, value);
 }
 */
+
 // for in loop ata object ar upare valo kaj kore
 for (const value in myObject) {
   console.log(value, ':', myObject[value]);
@@ -86,6 +87,7 @@ coding.forEach(function (item) {
   // console.log(item);
 })
 
+// forEach loop
 
 coding.forEach((jahir) => {
   console.log(jahir);
