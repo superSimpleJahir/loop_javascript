@@ -1,18 +1,18 @@
 let Name = ['mijan', 'jahir', 'jahid', 'arif', 'saifulla', 'sojib'];
 // forEach loops kono value return korena and kono variable a o store kora jaina 
 const valus = Name.forEach((item) => {
-  // console.log(item);
+  console.log(item);
   return item;
 });
 
-// console.log(valus);
+console.log(valus);
 
 
 // filter value return kore je kono variable a store kora jai 
 const myNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const newNum = myNum.filter((num) => num > 5);
-// console.log(newNum);
+console.log(newNum);
 
 const newNum1 = [];
 myNum.forEach((num) => {
@@ -20,7 +20,7 @@ myNum.forEach((num) => {
     return newNum1.push(num);
   }
 })
-// console.log(newNum1);
+console.log(newNum1);
 
 
 const books = [
@@ -57,32 +57,32 @@ const books = [
 ]
 
 const newBooks = books.filter((bk) => bk.genre === 'Fiction');
-// console.log(newBooks);
+console.log(newBooks);
 
 const newBooks1 = books.filter((bk) => bk.publish >= 2000 && bk.genre === 'Fiction');
-// console.log(newBooks1);
+console.log(newBooks1);
 
 
 
 // map loops
 const mynumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const myNewNumbers = mynumbers.map((num) => num + 10);
-// console.log(myNewNumbers);
+console.log(myNewNumbers);
 
 // forEach loops
 
 mynumbers.forEach((num) => {
-  // console.log(num + 10);
+  console.log(num + 10);
 })
 
 // reduce loops
 
 const mytotal = mynumbers.reduce((acc, cureval) => {
-  // console.log(`acc: ${acc} and curevalue: ${cureval}`);
+  console.log(`acc: ${acc} and curevalue: ${cureval}`);
   return acc + cureval;
 }, 0)
 
-// console.log(mytotal);
+console.log(mytotal);
 
 
 // reduce loops
