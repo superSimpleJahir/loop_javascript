@@ -84,7 +84,7 @@ for (const key in map) {
 }
 const coding = ['js', 'rb', 'py', 'java', 'c++', 'c'];
 coding.forEach(function (item) {
-  // console.log(item);
+  console.log(item);
 })
 
 // forEach loop

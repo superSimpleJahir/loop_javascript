@@ -60,5 +60,54 @@ const newBooks = books.filter((bk) => bk.genre === 'Fiction');
 // console.log(newBooks);
 
 const newBooks1 = books.filter((bk) => bk.publish >= 2000 && bk.genre === 'Fiction');
-console.log(newBooks1);
+// console.log(newBooks1);
+
+
+
+// map loops
+const mynumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const myNewNumbers = mynumbers.map((num) => num + 10);
+// console.log(myNewNumbers);
+
+// forEach loops
+
+mynumbers.forEach((num) => {
+  // console.log(num + 10);
+})
+
+// reduce loops
+
+const mytotal = mynumbers.reduce((acc, cureval) => {
+  // console.log(`acc: ${acc} and curevalue: ${cureval}`);
+  return acc + cureval;
+}, 0)
+
+// console.log(mytotal);
+
+
+// reduce loops
+const myCource = [
+  {
+    courceName: 'js cource',
+    price: 3000
+  },
+  {
+    courceName: 'py cource',
+    price: 2000
+  },
+  {
+    courceName: 'java cource',
+    price: 1500
+  },
+  {
+    courceName: 'Data science cource',
+    price: 5000
+  },
+]
+
+
+const pricetopay = myCource.reduce((acc, cource) => acc + cource.price, 0)
+
+console.log(pricetopay);
+
 
